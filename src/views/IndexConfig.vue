@@ -10,7 +10,7 @@
           @confirm="handleDelete"
         >
           <template #reference>
-            <el-button type="danger" :icon="Delete">批量删除</el-button>
+            <el-button type="danger" :icon="Delete">删除</el-button>
           </template>
         </el-popconfirm>
       </div>

@@ -13,9 +13,9 @@
       >
         <template #reference>
           <div class="author">
-            <i class="icon el-icon-s-custom" />
+            <el-icon><UserFilled /></el-icon>
             {{ state.userInfo && state.userInfo.nickName || '' }}
-            <i class="el-icon-caret-bottom" />
+            <el-icon><ArrowDown /></el-icon>
           </div>
         </template>
         <div class="nickname">
